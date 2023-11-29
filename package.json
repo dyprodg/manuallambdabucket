@@ -1,0 +1,8 @@
+{
+    "name": "lambda-function",
+    "version": "1.0.0",
+    "description": "Lambda function for processing text files",
+    "dependencies": {
+        "aws-sdk": "^2.1049.0"
+    }
+}
