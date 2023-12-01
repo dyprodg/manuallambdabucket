@@ -38,7 +38,7 @@ aws iam attach-role-policy \
 aws lambda create-function \
     --function-name TextFileProcessor \
     --runtime nodejs14.x \
-    --role arn:aws:iam::283919506801:role/lambda-s3-execution-role \
+    --role ARN_DER_LAMBDA_ROLLE \
     --handler index.handler \
     --zip-file fileb://s3lambda.zip \
     --region eu-central-1
